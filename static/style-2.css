@@ -1,0 +1,113 @@
+div.hamburger{
+    display:none;
+}
+@media screen and (max-width:500px){
+    div.logo-container img{
+        margin-left:30%;
+    }
+    div.hamburger{
+        display:block;
+    }
+    nav ul li{
+        display:none;
+    }
+    header div.links a{
+        display:none;
+    }
+    div#bottom-content-container{
+        margin-top:150px;
+        display:flex;
+        flex-direction:column;
+        height:600px;
+    }
+    div.heading-container{
+        height:200px;
+    }
+    h1#heading{
+        width:100vw;
+        text-align:center;
+        font-size:2rem;
+    }
+    div#content-container{
+        display:flex;
+        flex-direction:column-reverse;
+        height:1000px;
+    }
+    div#image-container{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:200px;
+    }
+
+    div.front-cover h1{
+        font-size:1.6rem;
+    }
+    div#content{
+        display:flex;
+        flex-direction:column;
+        height:500px;
+    }
+    div#content-1{
+        height:50%;
+    }
+    div#content-2{
+        height:50%;
+    }
+    div#bottom-content-container-2{
+        display:flex;
+        flex-direction:column;
+        height:450px;
+        margin-top:200px;
+    }
+    div#bottom-content-container-2 div.image-container{
+        height:40%;
+    }
+    div#bottom-content-container-2 div.image-container img{
+        height:200%;
+        position:absolute;
+        top:-80%;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    div#content-container-2{
+        height:60%;
+        padding-left:10%;
+        padding-right:10%;
+    }
+    div#content-container-2 h1{
+        font-size:1.4rem;
+        text-align:center;
+    }
+    div#content-container-2 p{
+        text-align:center;
+    }
+    div#bottom-content-container-3{
+        display:flex;
+        flex-direction:column;
+    }
+    div#bottom-content-container-3 div.image-container{
+        height:300px;
+    }
+    div#footer-content-container{
+        height:550px;
+        padding:10% 0%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin-top:100px;
+    }
+
+    div#footer-content-container div.content-1{
+        margin-top:20px;
+    }
+        
+    div#footer-content-container div.content-2{
+        margin-top:30px;
+    }
+
+    div#footer-content-container div.content-3{
+        margin-top:30px;
+    }
+
+ }
